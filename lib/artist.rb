@@ -31,6 +31,6 @@ class Artist
   end
 
   def print_songs
-    puts @songs.split(", ")
+    puts @songs
   end
 end
