@@ -8,7 +8,8 @@ class Song
   end
 
   def artist=(song)
-    binding.pry
+    #binding.pry
+    song
   end
 
   def self.new_by_filename(filename)
