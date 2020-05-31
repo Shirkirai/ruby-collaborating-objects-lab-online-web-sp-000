@@ -8,9 +8,9 @@ class MP3Importer
   end
 
   def files
-    
+
     Dir.glob("#{@path}/*.mp3").map do |file|
-      file.gsub("./spec/fixtures/mp3s/", "")
+      file.gsub("#{@path}/*.mp3", "")
     end
   end
 end
