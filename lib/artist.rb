@@ -16,10 +16,6 @@ class Artist
     @@all
   end
 
-  def save
-
-  end
-
   def add_song(song)
     self.songs << song
   end
