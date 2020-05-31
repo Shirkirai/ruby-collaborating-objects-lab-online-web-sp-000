@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
 
-  @@all 
+  @@all
   attr_accessor :name, :artist
 
   def initialize(name)
@@ -10,7 +10,7 @@ class Song
   end
 
   def self.all
-
+    @@all
   end
 
   def self.new_by_filename(filename)
