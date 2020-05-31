@@ -21,6 +21,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    existing_artist = self.find.all {|artist| artist.name == name}
+    existing_artist = self.all.find {|artist| artist.name == name}
+    if existing_artist
   end
 end
