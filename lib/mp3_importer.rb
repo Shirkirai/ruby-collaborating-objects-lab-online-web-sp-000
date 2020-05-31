@@ -14,7 +14,7 @@ class MP3Importer
     end
   end
 
-  def import
+  def import(list_of_filenames)
     self.files
     binding.pry
   end
