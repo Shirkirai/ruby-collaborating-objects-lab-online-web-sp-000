@@ -25,6 +25,7 @@ class Artist
     if existing_artist
       existing_artist
     else
+      name = Artist.new(name)
     end
   end
 end
