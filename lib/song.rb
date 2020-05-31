@@ -23,6 +23,7 @@ class Song
     new_instance = Song.new(song[1])
     #binding.pry
     new_instance.artist_name = song[0]
+    new_instance
 
 
   end
