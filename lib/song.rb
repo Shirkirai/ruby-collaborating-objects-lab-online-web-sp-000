@@ -23,8 +23,6 @@ class Song
     new_instance = self.new(song)
     new_instance
 
-    artist = filename.split(" - ")[0]
-    
 
 
   end
