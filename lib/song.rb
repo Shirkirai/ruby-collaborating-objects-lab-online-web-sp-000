@@ -12,7 +12,6 @@ class Song
     song = self.new
     song.name = filename.split(" - ")[1]
 
-    binding.pry
     song
 
   end
