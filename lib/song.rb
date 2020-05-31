@@ -8,7 +8,6 @@ class Song
   end
 
   def artist=(song)
-    song.artist
   end
 
   def self.new_by_filename(filename)
