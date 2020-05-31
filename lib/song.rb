@@ -14,6 +14,8 @@ class Song
     @@all
   end
 
+  def artist_name=(name)
+
   def self.new_by_filename(filename)
     #binding.pry
     new_instance = self.new
