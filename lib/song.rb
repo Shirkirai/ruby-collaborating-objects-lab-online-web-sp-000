@@ -8,7 +8,7 @@ class Song
   end
 
   def artist=(song)
-    binding.pry
+    #binding.pry
     song.name.artist
   end
 
